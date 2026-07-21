@@ -17,7 +17,8 @@ st.write(
 
 #replacing old data with new data
 #steam = pd.read_csv('steam.csv')
-new_data_path = "../../Dataset/data/download/steamspy_data.csv"
+#../../Dataset/data/download/steamspy_data.csv
+new_data_path = '..\..\Dataset\data\download\steamspy_data.csv'
 steam = pd.read_csv(new_data_path)
 pd.set_option("display.max_columns", None)
 
