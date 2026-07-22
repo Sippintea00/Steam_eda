@@ -18,8 +18,14 @@ st.write(
 #replacing old data with new data
 #steam = pd.read_csv('steam.csv')
 #../../Dataset/data/download/steamspy_data.csv
+import os
 
-new_data_path = "steamspy_data.csv"
+
+# folder where this script lives, regardless of cwd
+#BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+#new_data_path = os.path.join(BASE_DIR, "steamspy_data.csv")
+
+new_data_path = "streamspy_data.csv"
 steam = pd.read_csv(new_data_path)
 pd.set_option("display.max_columns", None)
 
