@@ -15,18 +15,10 @@ st.write(
     "The goal for this analysis is to better understand what makes some Steam games so much more popular than others by looking at trends and patterns within the top ~1000 steam games today."
 )
 
-#replacing old data with new data
-#steam = pd.read_csv('steam.csv')
-#../../Dataset/data/download/steamspy_data.csv
-import os
-
-
-# folder where this script lives, regardless of cwd
-#BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-#new_data_path = os.path.join(BASE_DIR, "steamspy_data.csv")
-
-new_data_path = "steamspy_data.csv"
-steam = pd.read_csv(new_data_path)
+# path from home direct in github vs path from current file
+#local_path = ../../Dataset/data/download/steamspy_data.csv
+steamlite_share_path  = "Dataset/data/download/steamspy_data.csv"
+steam = pd.read_csv(steamlite_share_path)
 pd.set_option("display.max_columns", None)
 
 
