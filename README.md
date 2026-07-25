@@ -5,6 +5,8 @@ An interactive data visualization dashboard exploring trends among the most popu
 
 Built with **Python**, **Pandas**, **Altair**, and **Streamlit**.
 
+*Link to streamlit dashboard [steameda.streamlit.app](https://steameda.streamlit.app/)*
+
 ---
 
 ## Project Overview
